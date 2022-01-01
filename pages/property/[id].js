@@ -64,7 +64,7 @@ function PropertyDetails({
           </div>
         )}
       </div>
-      <div className="mt-5 flex ">
+      <div className="mt-5 flex flex-col lg:flex-row ">
         {amenities.length && (
           <p className="text-gray-700 font-semibold mr-3 whitespace-nowrap">
             Facilities :
